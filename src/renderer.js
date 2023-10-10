@@ -26,9 +26,9 @@
  * ```
  */
 
-const ipc = require("electron").ipcRenderer;
+// const ipc = require("electron").ipcRenderer;
 // console.log(__dirname)
-ipc.send("load-page", "file://" + __dirname + "/views/reg.html");
+// ipc.send("load-page", "file://" + __dirname + "/views/reg.html");
 
 import "./index.css";
 
